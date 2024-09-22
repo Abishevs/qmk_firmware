@@ -1,5 +1,19 @@
 # Quantum Mechanical Keyboard Firmware
 
+## ErgoGeekBoard by Eduards Abishevs
+
+### Prerequisits
+Install and setup qmk cli. There are instructions lower on this page and on QMK
+docs.
+
+### Flashing
+
+Flash def keymap with:
+
+´´´bash
+qmk flash -kb handwired/ergo_geek_board -km default
+´´´
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/qmk)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)
@@ -34,3 +48,5 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+
